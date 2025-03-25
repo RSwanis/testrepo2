@@ -44,7 +44,7 @@ top_10_por_ano <- dados_ordenados %>%
 ggplot(top_10_por_ano, aes(x = ano, y = percentual)) +
   geom_col(aes(fill = CAUSABAS, color = CAUSABAS)) +
   theme_minimal() +
-  labs(title = "Principais causas de morte - Ouro Preto (2010-2021)",
+  labs(title = "Principais causas de morte - Ouro Preto (2000-2023)",
        subtitle = "CID - Classificação Internacional de Doenças",
        caption = "Elaboração: Vinicius Santos - Dados: Datasus",
        y = "%",
